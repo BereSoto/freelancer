@@ -1,1 +1,126 @@
-<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!-- Agrega aquí la estructura HTML de tu sitio web, se crea el link para las tipografias  -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Freelacer</title>
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!--crear el menu star bootstrap fijo-->
+    <header>
+      <div class="container">
+        <a class="home" href="#">Start Bootstrap</a>
+        <nav>
+          <ul>
+            <li><a class="item" href="">Portfolio</a></li>
+            <li><a class="item" href="">About</a></li>
+            <li><a class="item" href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Seccion 1 y anexar imagen profile-->
+    <section class="main">
+      <div class="container">
+        <img class="man" src="assets/images/profile.png" alt="man">
+        <div>
+          <span class="name">Start Bootstrap</span>
+          <hr class="star-white">
+          <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion 2 anexar imagenes del portafolio-->
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <hr class="star-black">
+        <div class="box-item">
+          <div class="portfolio-item">
+            <img class="img-fluid" src="assets/images/portfolio/cabin.png" alt="">
+          </div>
+          <div class="portfolio-item">
+            <img class="img-fluid" src="assets/images/portfolio/cake.png" alt="">
+          </div>
+          <div class="portfolio-item">
+            <img class="img-fluid" src="assets/images/portfolio/circus.png" alt="">
+          </div>
+          <div class="portfolio-item">
+            <img class="img-fluid" src="assets/images/portfolio/game.png" alt="">
+          </div>
+          <div class="portfolio-item">
+            <img class="img-fluid" src="assets/images/portfolio/safe.png" alt="">
+          </div>
+          <div class="portfolio-item">
+            <img class="img-fluid" src="assets/images/portfolio/submarine.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tercera sección crear 2 columnas de texto -->
+    <section class="about">
+      <div class="container">
+        <h2 class="text-center">About</h2>
+        <hr class="star-white">
+        <div class="row">
+          <div class="text-1">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="text-2">
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          </div>
+        </div>
+        <div class="download">
+          <a href="#" class="btn">
+            <i class="fa fa-download"></i>
+            Download Theme
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Cuarta sección crear los espacion para anexar datos de contacto con input-->
+    <section class="contact">
+      <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <hr class="star-black">
+        <div>
+          <form action="">
+            <div class="form-group"><input type="text" placeholder="Name"></div>
+            <div class="form-group"><input type="text" placeholder="Email Address"></div>
+            <div class="form-group"><input type="text" placeholder="Phone Number"></div>
+            <div class="form-group"><input id="box-me
+              ssage" type="text" placeholder="Message"></div>
+            <br>
+            <div><button>Send</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Pie de página haciendo 3 columnas (box)con los datos indicados -->
+    <footer>
+      <div class="footer-above">
+        <div class="container">
+          <div class="box1">
+            <h3>location</h3>
+            <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+          </div>
+          <div class="box2">
+            <h3>Around the web</h3>
+          </div>
+          <div class="box3">
+            <h3>about freelancer</h3>
+            <p>Freelance is a free to use, open source<br> Bootstrap theme created by Start<br>Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-below">
+        <div class="container">
+          <div>Copyright © Your Website 2017</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
